@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Heavitas'; /*a name to be used later*/
+    src: url('../Heavitas.ttf'); /*URL to font*/
+}
+
+.heavitas-font {
+    font-family: "Heavitas";
+}
