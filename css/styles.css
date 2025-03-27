@@ -3,14 +3,71 @@
     src: url('../Heavitas.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'Nexa'; /*a name to be used later*/
+    src: url('../Nexa-ExtraLight.ttf'); /*URL to font*/
+}
+
+header {
+    background-image: url(../images/carousel1cropped.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
 .heavitas-font {
     font-family: "Heavitas";
 }
 
-.bg-khaki {
+.nexa-font {
+    font-family: "Nexa";
+}
+
+.bg-green1 {
     background-color: #b4ba51;
+}
+
+.bg-green2 {
+    background-color: #818763;
+}
+
+.bg-green3 {
+    background-color: #d4d92f;
 }
 
 .shadow {
     box-shadow: 5px 5px black;
+}
+
+h1, h2, h3 {
+    font-family: "Heavitas";
+}
+
+img {
+    object-fit: cover;
+}
+
+p {
+    font-family: "Nexa";
+}
+
+
+.header-text {
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 300px;
+    left: 60%;
+}
+
+.header-p {
+    text-align: end;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 400px;
+    left: 60%;
+}
+
+.green-text {
+
 }
