@@ -8,6 +8,11 @@
     src: url('../Nexa-ExtraLight.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: "Nexa-Heavy";
+    src: url(../Nexa-Heavy.ttf);
+}
+
 header {
     background-image: url(../images/carousel1cropped.jpg);
     background-size: cover;
@@ -21,6 +26,10 @@ header {
 
 .nexa-font {
     font-family: "Nexa";
+}
+
+.nexa-font-heavy {
+    font-family: "Nexa-Heavy";
 }
 
 .bg-green1 {
@@ -70,4 +79,8 @@ p {
 
 .green-text {
 
+}
+
+.footer {
+    height: 50px;
 }
